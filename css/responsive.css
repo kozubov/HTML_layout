@@ -1,0 +1,56 @@
+@media screen and (max-width: 990px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    html{
+        font-size: 80%;
+    }
+    .menu .menu__button {
+        display: block;
+    }
+    .menu .menu_item {
+        display: none;
+    }
+    .menu .menu_item a {
+        display: block;
+        font-size: 1.25rem;
+        margin: 17px 0;
+    }
+    .menu .menu_item.nav__list--open{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 1.5% 0;
+    }
+    .header .contacts {
+        text-align: center;
+    }
+    .about_main .grid {
+        width: 100%;
+        flex-direction: row;
+        flex-direction: column;
+        margin-right: 0%;
+    }
+    .about_main .grid__item {
+        width: 100%;
+    }
+    .about_main .advantage {
+        width: 100%;
+        flex-direction: column;
+    }
+    .about_main .advantage__item {
+        width: 100%;
+        text-align: center;
+    }
+}
